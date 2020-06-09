@@ -5,6 +5,8 @@ spring:
   application:
     name: simple application
 
+
+
 eureka:
   client:
     registryFetchIntervalSeconds: 5
@@ -15,6 +17,10 @@ eureka:
     health-check-url-path: /actuator/health
 
 management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
   endpoint:
-    shutdown:
-      enabled=true:
+    health:
+      show-details: ALWAYS

@@ -12,9 +12,12 @@
         <module>eurekaDemo</module>
         <module>adminServerDemo</module>
         <module>adminClientDemo</module>
-        <module>adminServerDemo-Eureka</module>
+        <module>adminServerDemoEureka</module>
         <module>adminClientDemoEureka</module>
         <module>simpleSprintBoot</module>
+        <module>eurekaSecurityDemo</module>
+        <module>simpleSpringBootSecurity</module>
+        <module>adminServerSecurityDemo</module>
     </modules>
 
 

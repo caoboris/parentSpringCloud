@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demoProvider</artifactId>
+    <artifactId>adminClientDemo</artifactId>
 
     <dependencies>
         <dependency>
@@ -24,11 +24,11 @@
           <version>2.1.0</version>
         </dependency>
 
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-actuator</artifactId>
         </dependency>
-
+-->
     </dependencies>
 
     <!-- Package as an executable jar -->
