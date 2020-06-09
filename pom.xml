@@ -18,6 +18,7 @@
         <module>eurekaSecurityDemo</module>
         <module>simpleSpringBootSecurity</module>
         <module>adminServerSecurityDemo</module>
+        <module>adminClientSecurityEureka</module>
     </modules>
 
 
@@ -43,9 +44,6 @@
         </dependencies>
 
     </dependencyManagement>
-
-
-
 
 
 </project>

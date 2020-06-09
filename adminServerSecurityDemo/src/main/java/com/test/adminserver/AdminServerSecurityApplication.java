@@ -11,6 +11,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class AdminServerSecurityApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AdminServerSecurityApplication.class,args);
+        SpringApplication.run(AdminServerSecurityApplication.class, args);
     }
 }

@@ -1,6 +1,20 @@
 spring:
   application:
     name: admin-client
+  security:
+    user:
+      name: admin
+      password: admin
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8769
+#        instance:
+#          name: admin-client
+#          metadata: # 这个name与password用于在注册到管理端时，使管理端有权限获取客户端端点数据
+#            user.name: ${spring.security.user.name}
+#            user.password: ${spring.security.user.password}
+
 #  boot:
 #    admin:
 #      client:
@@ -16,6 +30,9 @@ eureka:
     lease-renewal-interval-in-seconds: 1
     #Server从收到client后，下一次收到心跳的间隔时间。超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
     lease-expiration-duration-in-seconds: 1
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka

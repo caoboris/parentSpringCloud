@@ -9,6 +9,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class SimpleSecurityApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SimpleSecurityApplication.class,args);
+        SpringApplication.run(SimpleSecurityApplication.class, args);
     }
 }

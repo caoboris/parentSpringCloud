@@ -7,8 +7,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class AdminClientEurekaApplication {
+public class AdminClientSecurityEurekaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AdminClientEurekaApplication.class, args);
+        SpringApplication.run(AdminClientSecurityEurekaApplication.class, args);
     }
+
+
 }

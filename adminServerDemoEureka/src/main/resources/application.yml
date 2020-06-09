@@ -2,7 +2,7 @@ spring:
   application:
     name: admin-server-eureka
 server:
-  port: 8769
+  port: 8779
 
 eureka:
   client:

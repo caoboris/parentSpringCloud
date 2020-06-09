@@ -11,8 +11,9 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @SpringBootApplication
 public class EurekaSecurityApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaSecurityApplication.class,args);
+        SpringApplication.run(EurekaSecurityApplication.class, args);
     }
+
     @EnableWebSecurity
     static class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         @Override
